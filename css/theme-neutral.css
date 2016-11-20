@@ -43,7 +43,16 @@ a[data-toggle="tooltip"] {
     border-color: #015CAE;
 }
 
-.navbar-inverse .navbar-nav > .dropdown > a .caret, .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #347DBE;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle{
+    border-color: white;
+    background-color: white;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret, .navbar-inverse .navbar-nav > .dropdown > a .caret, .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #347DBE;
     border-top-color: #347DBE;
     border-bottom-color: #347DBE;
