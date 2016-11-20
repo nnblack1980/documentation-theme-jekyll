@@ -313,6 +313,7 @@ footer {
     font-size: smaller;
 }
 
+
 /* FAQ page */
 #accordion .panel-heading {
     font-size: 12px;
@@ -321,6 +322,20 @@ footer {
 a.accordion-toggle, a.accordion-collapsed {
     font-size: 14px;
     text-decoration: none;
+}
+
+.esri{
+    margin: 0.3875rem;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    min-height: 30px;
+    min-width: 70px;
+    line-height: 0;
+    background-size: 100% 100%;
+    background-image: url('https://esri.github.io/calcite-web/assets/img/logo/esri-logo.svg') !important;
 }
 
 /* navgoco sidebar styles (customized) */
@@ -452,8 +467,10 @@ ul#mysidebar {
 }
 
 span.projectTitle {
-    font-family: Helvetica;
-    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    color:#347DBE;
 }
 
 .footer {
